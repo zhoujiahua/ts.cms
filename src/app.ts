@@ -1,4 +1,3 @@
-import { userInfo, sum } from "./home";
+import run from "./views/home";
 
-console.log(sum(3, 5));
-console.log(userInfo);
+run();

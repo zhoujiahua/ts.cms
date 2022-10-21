@@ -3,5 +3,11 @@
     "target": "ES2016",
     "module": "ES2015",
     "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
   }
 }
